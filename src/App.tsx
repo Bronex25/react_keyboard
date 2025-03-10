@@ -13,7 +13,7 @@ export const App: React.FC = () => {
     return () => {
       document.removeEventListener('keydown', keyPressHandler);
     };
-  });
+  }, []);
 
   return (
     <div className="App">
